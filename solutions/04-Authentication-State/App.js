@@ -42,7 +42,7 @@ const data = {
 };
 
 // write the cache data on initial load
-cache.writeData({ data });
+cache.write({ data });
 // write the cache data after cache is reset
 client.onResetStore(() => cache.writeData({ data }));
 
